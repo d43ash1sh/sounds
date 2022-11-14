@@ -1,0 +1,17 @@
+body {
+    justify-content: center;
+    display: flex;
+
+
+}
+
+;
+
+.keys {
+    float: left;
+    padding: 20%;
+    display: flex;
+
+}
+
+;
