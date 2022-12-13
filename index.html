@@ -5,17 +5,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pay respect to the dev</title>
+    <title>🚨Please, Don't Touch Your Keyboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h2>press <kbd>f</kbd> to pay respect</h2>
+    <center>
+        <h1> 🚨Don't Press 'F'🚨</h1>
+    </center>
+
+    <form>
+        <div class="container">
+            <label>Not Your Username : </label>
+            <input type="text" placeholder="मैंने बार-बार कहा" name="username" required>
+            <label>Not Your Password : </label>
+            <input type="password" placeholder="यहां कोई जानकारी न भरें" name="password" required>
+            <button type="submit">PRESS 'F'</button>
+        </div>
+    </form>
     <div data-key="70" class="key">
         <span class="sound"></span>
     </div>
     </div>
     <audio data-key="70" src="src/killsound.wav"></audio>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script>
         window.addEventListener('keydown', function (e) {
             const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`)
